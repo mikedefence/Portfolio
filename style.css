@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    font-family: 'josefin sans',
+        sans-serif;
+}
+
+/* Hero section styling (Starts) */
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/mike-smith-a.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 16px;
+    color: #fcfc;
+}
+
+h3{
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin: 20px 0 20px;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin: 20px 0 30px;
+}
+
+span{
+    color:#f9004d ;
+}
+
+.btn{
+    padding: .5rem 1.3rem ;
+    color: white;
+    background-color:#f9004d;
+    text-decoration: none;
+    border-radius:20px;
+    font-weight: bold;
+    transition: .4s;
+    border: 1px solid #f9004d;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+}
+
+.personal-data{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.data form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+form input:first-child{
+    display: inline-block;
+    width:85% ;
+    padding:10px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+
+form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border-style: none;
+    padding: 6px 30px;
+    border-radius: 25px;
+    color: white;
+    background-color: #f9004d;
+    top: 2px;
+    right: 62px;
+    margin-top: 4.4px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 10px #858585;
+    font-weight: bold;
+}
+
+form input:last-child:hover{
+    transform: scale(1.2);
+    background-color: #858585;
+}
+
+
+
+/* About-me section styling (starts) */
+
+.container-1{
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    gap: 13rem;
+}
+
+.container-1 img{
+    padding: 100px 0;
+    width: 350px;
+    position: relative;
+    left: 40%;
+}
+
+.about-me{
+    padding: 0 220px 0 10px;
+}
+
+.large{
+    margin-bottom: 1rem;
+}
+.small{
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.about-me p{
+    color:#fcfc ;
+    margin-bottom: 3rem;
+    line-height:1.3rem ;
+}
+
+
+/* service section styling (starts) */
+
+.service-section {
+    width: 100%;
+    background-color: #101010;
+    text-align: center;
+    padding: 100px 0;
+}
+
+
+.service-section h1{
+    width: 1130px;
+    margin: 30px auto;
+    font-size: 55px;
+}
+
+.service-section h2 {
+   color: white;
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+
+.service-section p{
+    color: #fcfc;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 350px;
+    width: 300px;
+    background-color: #191919;
+    border-radius: 20px;
+    padding: 65px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+/* hire me */
+
+.hire-me{
+    width: 100%;
+    background-color: #191919;
+    text-align: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hire-me h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    word-spacing: -4px;
+}
+
+/* footer */
+
+ footer{
+    width: 100%;
+    background-color: #101010;
+    text-align: center;
+    padding: 80px 0;
+    color: #fff;
+ }
+
+  footer h3{
+    font-size: 25px;
+  }
+
+  footer button{
+    padding: 20px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #f9004d;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    transition: .4s;
+    border: 1px solid #f9004d;
+    
+  }
+
+  footer button:hover {
+      transform: scale(1.2);
+      background-color: transparent;
+  }
+
+  .click p{
+    margin: 1rem 0;
+  }
+
+  .buttons{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 1rem;
+
+  }
+
+  .p{
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+  }
